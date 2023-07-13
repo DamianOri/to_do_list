@@ -1,7 +1,7 @@
 # Version 2.0.1
 # 6 III 2022
 print("To-Do list program, by Damian.\n")
-todo = input("Input the path to the .txt file in which the todo list is saved\n")
+todo = "./todo.txt"                             # The file is created in the directory in which to_do_list.py is in
 print("Type /exit to exit.")
 print("Type /erase to erase the list.")
 print("Type /read to display the list")
